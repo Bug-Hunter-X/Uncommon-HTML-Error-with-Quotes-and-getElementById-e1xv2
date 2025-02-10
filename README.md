@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon HTML bug related to the use of different quotes around style.display values and a typo in getElementById. Some browsers handle the single and double quotes differently in setting style properties, potentially causing unexpected results or errors.  The solution clarifies the best practices for consistent and error-free code.
