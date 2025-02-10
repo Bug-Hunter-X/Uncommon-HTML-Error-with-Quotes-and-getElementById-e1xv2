@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+  <script>
+    // This line causes an error in some browsers
+    document.getElementById('myDiv').style.display = "none";
+    // This line also causes an error in some browsers
+    document.getElementById('myDiv').style.display = 'none'; 
+    //This is wrong and also causes errors
+    document.getElementbyId('myDiv').style.display = "none";
+  </script>
+</body>
+</html>
